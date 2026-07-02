@@ -1,0 +1,19 @@
+[project]
+name = "note-player"
+version = "1.0.0"
+description = "Screen-capture autoplayer for frets-style rhythm games: real-time note detection, physical gem tracking, synthetic key presses. Windows only."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+    "bettercam>=1.0.0",
+    "colorama>=0.4.6",
+    "keyboard>=0.13.5",
+    "numpy>=2.0",
+    "opencv-python>=4.10,<5",
+    "pywin32>=306",
+    "tomli>=2 ; python_full_version < '3.11'",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]

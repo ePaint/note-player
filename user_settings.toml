@@ -1,0 +1,13 @@
+# note-player user settings -- restart the bot after editing
+key_1 = "d"
+key_2 = "f"
+key_3 = "j"
+key_4 = "k"
+key_5 = "l"
+exit_key = "p"
+always_single_lanemode = true
+single_lanemode_lanes = 5
+use_white_tile = true
+use_battlestage_tile = false
+use_diamond_tile = false
+console_window_ontop = true
